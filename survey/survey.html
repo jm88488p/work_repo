@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <h1 id="title">The Hats</h1>
+      <p id="description">Have you ever seen something and just fell in love?</p>
+  </head>
+  <body>
+    <link rel="stylesheet" href="/Users/jahsheemmartin/Desktop/survey/styles.css">
+    <form id="survey-form">
+      <label id="name-label">Name:<input id="name" type="text" placeholder="Enter your name" type="Name" required></input></label>
+      <label id="email-label">Email:<input id="email" placeholder="Enter your email" type="Email" required></input></label>
+      <label id="number-label">Number:<input id="number" min="10" max="100" placeholder="Enter your number" type="Number"></input></label>
+      <p>What is your level of love for hats?</p>
+      <select id="dropdown">
+        <option>Select</option>
+        <option type="radio" name="Love">Love</option>
+        <option type="radio" name="Hate">Hate</option>
+      </select>
+      <div></div>
+      <label>What is your favorite sport?</label>
+      <input type="radio" name="radio-buttons" class="radio" value="1">Baseball</input>
+      <input type="radio" name="radio-buttons" class="radio" value="2">Basketball</input>
+      <div></div>
+    <label id="preferences" >How many of these team hats you like?<br>(Select all that apply)</label>
+      <ol id="preferences" style="list-style: none;">
+        <li id="checkbox"><input name="prefer" value="1" type="checkbox"> New York Mets</input></li>
+        <li id="checkbox"><input name="prefer" value="2" type="checkbox"> New York Yankees</input></li>
+        <li id="checkbox"><input name="prefer" value="3" type="checkbox"> New York Knicks</input></li>
+        <li id="checkbox"><input name="prefer" value="4" type="checkbox"> Atlanta Braves</input></li>
+      </ol>
+     <br>
+     <label>Leave any additional messages here!</label>
+       <textarea type="message" placeholder="Leave a comment here"></textarea>
+       <br><input type="submit" id="submit"></input>
+    </form>
+  </body>
+</html>
